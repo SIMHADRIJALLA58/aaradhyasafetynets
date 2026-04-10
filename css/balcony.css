@@ -1,0 +1,353 @@
+
+/* ================= GENERAL ================= */
+section {
+  padding: 60px 0;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+/* ================= HERO ================= */
+.hero-section-custom{
+    background-color: #ece9ea;
+}
+.hero-img {
+  border-radius: 15px;
+}
+.editing{
+    color: black;
+    font-size: 17px;
+}
+.hero-features span {
+  display: inline-block;
+  background: #f1f1f1;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+/* Buttons */
+.btn-call,
+.btn-whatsapp {
+  display: inline-block;
+  text-decoration: none;   /* ❌ remove underline */
+  padding: 12px 22px;
+  border-radius: 8px;
+  margin-top: 15px;        /* ✅ space from text above */
+  font-weight: 500;
+}
+
+/* Call button */
+.btn-call {
+  background: black;
+  color: white;
+  margin-right: 10px;      /* space between buttons */
+}
+
+/* WhatsApp button */
+.btn-whatsapp {
+  background: #0e0174;
+  color: white;
+}
+
+/* Optional: hover effect (modern look) */
+.btn-call:hover,
+.btn-whatsapp:hover {
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+
+
+
+/* ================= ABOUT ================= */
+.about-section-custom{
+    background-color: #f8f6f8;
+}
+.about-img {
+  border-radius: 15px;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+}
+.edit {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+}
+
+/* small underline */
+.edit::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 60px;       /* underline length */
+  height: 5px;      /* thickness */
+  background: #bc7da7; /* color (you can change) */
+  border-radius: 2px;
+}
+
+/* ================= CENTER SMALL UNDERLINE ================= */
+.underline-center {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+}
+
+.underline-center::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  width: 60px;      /* underline length */
+  height: 5px;      /* thickness */
+  background: #c45d91; /* color */
+  border-radius: 2px;
+}
+/* ================= TESTIMONIAL ================= */
+.testimonials-custom {
+  background: #dad2d7;
+}
+
+.testimonial-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* ================= CONTACT ================= */
+.contact-custom{
+    background-color: #ffffff;
+}
+.contact-form-box input,
+.contact-form-box textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn-submit {
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.info-card {
+  background: #f1f1f1;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.info-card1 {
+  background: #a7d3d8;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.whatsapp {
+  background: #c6d7ce;
+}
+
+
+
+
+/* ================= INTRO SECTION ================= */
+.intro-section{
+  padding: 60px 0;
+  background-image: url("../images/balcony-safety-nets-in-bengaluru.jpg")
+
+}
+.banashankari-page{
+  padding: 60px 0;
+  background-image: url("../images/balcony-safety-nets-in-indiranagar-bengaluru.jpg")
+
+}
+.children-page{
+  padding: 60px 0;
+  background-image: url("../images/childrenhero.jpg")
+
+}
+.invisible-page{
+  padding: 60px 0;
+  background-image: url("../images/invisible-grill-nets-in-hebbal-bengaluru.jpg")
+
+}
+.pigeon-page{
+  padding: 60px 0;
+  background-image: url("../images/pigeonhero1.jpg")
+
+}
+
+
+.intro-header h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color:black;
+  margin-bottom: 15px;
+}
+
+.intro-header p {
+  color: black;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* CARDS */
+.intro-card {
+  background: #cec8ce;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.intro-card h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.intro-card:hover {
+  transform: translateY(-5px);
+  background: #000;
+  color: #fff;
+}
+
+
+
+h1 {
+  position: relative;
+  display: inline-block;
+}
+.heading-underline-pink {
+  position: relative;
+  display: inline-block;
+}
+
+.heading-underline-pink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 70px;   /* underline width */
+  height: 6px;   /* thickness */
+  background-color: #894c7f; /* pink color */
+  border-radius: 2px;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 70px;
+  height: 5px;
+  background: rgb(200, 118, 189);
+  border-radius: 2px;
+}
+
+
+.info-card, .info-card1 {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/*duct area*/
+
+
+.area-visual-section {
+  background: #f8f9fa;
+}
+
+.area-list {
+  columns: 2;
+  list-style: none;
+  padding: 0;
+}
+
+.area-list li {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+
+.area-list a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 6px 0;
+  transition: 0.3s;
+}
+
+.area-list a:hover {
+  color: #d447aa;
+  transform: translateX(5px);
+}
+
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+  transition: 0.5s;
+}
+
+.tree li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 10px 0 10px;
+  transition: 0.5s;
+}
+
+/* Lines */
+.tree li::before, .tree li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 2px solid #e4d9e0;
+  width: 50%;
+  height: 20px;
+}
+
+.tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 2px solid #dacfd7;
+}
+
+/* Remove lines for single child */
+.tree li:only-child::before, 
+.tree li:only-child::after {
+  display: none;
+}
+
+/* Box styling */
+.tree li span {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 8px;
+  background: #6cc2c1;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Hover */
+.tree li span:hover {
+  background: #be5db5;
+  color: #f5f2f2;
+}
