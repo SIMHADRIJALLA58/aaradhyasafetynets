@@ -149,7 +149,7 @@ i.fa-phone {
 
 /* Logo FIXED */
 .logo {
-  height: 45px;   /* 🔥 reduced */
+  height: 80px;   /* 🔥 reduced */
   width: auto;
 }
 
@@ -1914,4 +1914,18 @@ html, body {
 .scroll-top-btn.show {
   opacity: 1;
   visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+.logo {
+  height: 70px;   /* 🔥 reduced */
+  width: auto;
 }
