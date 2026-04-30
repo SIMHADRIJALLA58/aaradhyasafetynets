@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "aaradhyasafetynets.vercel.app"
+        }
+      ],
+      "destination": "https://aaradhyasafetynets.in/$1",
+      "permanent": true
+    }
+  ]
+}
